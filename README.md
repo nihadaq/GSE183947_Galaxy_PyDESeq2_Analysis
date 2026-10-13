@@ -50,6 +50,7 @@ This project bridges **Galaxy Europe's** high-performance alignment infrastructu
  * SRA Sample Manifest:
    * Control: SRR15887221, SRR15887222, SRR15887223
    * Treated: SRR15887224, SRR15887225, SRR15887226
+
 📊 Summary of Analytical Findings
 | Metric | Output Value |
 |---|---|
@@ -59,6 +60,7 @@ This project bridges **Galaxy Europe's** high-performance alignment infrastructu
 | Upregulated Genes | 212 |
 | Downregulated Genes | 156 |
 | Top Enriched Clusters | Cell-cycle arrest, apoptotic signaling, HOX & IRX locus co-expression modules |
+
 🛠️ Repository Directory Structure
 bulk_rnaseq_galaxy_pydeseq2/
 ├── notebooks/
@@ -85,6 +87,7 @@ pip install -r requirements.txt
 
 3. Run Pipeline in Google Colab
 Open notebooks/GSE183947_Galaxy_PyDESeq2_Analysis.ipynb in Google Colab and run all cells sequentially.
+
 📦 Key Dependencies
  * bioblend - Galaxy Europe REST API integration
  * pydeseq2 - Differential expression modeling via Negative Binomial GLMs
@@ -92,11 +95,13 @@ Open notebooks/GSE183947_Galaxy_PyDESeq2_Analysis.ipynb in Google Colab and run 
  * gseapy - Gene Set Enrichment Analysis & Enrichr API query
  * seaborn & matplotlib - Hierarchical clustering heatmaps and plot rendering
  * adjustText - Dynamic label collision prevention for Volcano plots
+
 👤 Author & Contact
 Nihad Adil Qadir
  * 🐙 GitHub: @nihadaq
  * 💼 LinkedIn: Nihad Adil Qadir
  * 📧 Email: nihadaq@gmail.com
+
 📜 License
 Distributed under the MIT License. See LICENSE for details.
 
