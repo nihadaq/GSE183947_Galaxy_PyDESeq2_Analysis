@@ -1,6 +1,4 @@
-# GSE183947_Galaxy_PyDESeq2_Analysis
-
-# 🧬 bulk_rnaseq_galaxy_pydeseq2: Automated Bulk RNA-Seq Transcriptomics Pipeline
+# 🧬 GSE183947_Galaxy_PyDESeq2_Analysis: Automated Bulk RNA-Seq Transcriptomics Pipeline
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Galaxy Europe](https://img.shields.io/badge/Galaxy--Europe-HPC-purple.svg)](https://usegalaxy.eu/)
@@ -62,7 +60,7 @@ This project bridges **Galaxy Europe's** high-performance alignment infrastructu
 | Top Enriched Clusters | Cell-cycle arrest, apoptotic signaling, HOX & IRX locus co-expression modules |
 
 🛠️ Repository Directory Structure
-bulk_rnaseq_galaxy_pydeseq2/
+GSE183947_Galaxy_PyDESeq2_Analysis/
 ├── notebooks/
 │   └── GSE183947_Galaxy_PyDESeq2_Analysis.ipynb  # Primary reproducible Colab notebook
 ├── data/
@@ -79,8 +77,8 @@ bulk_rnaseq_galaxy_pydeseq2/
 
 🚀 Quickstart & Reproducibility
 1. Clone the Repository
-git clone [https://github.com/nihadaq/bulk_rnaseq_galaxy_pydeseq2.git](https://github.com/nihadaq/bulk_rnaseq_galaxy_pydeseq2.git)
-cd bulk_rnaseq_galaxy_pydeseq2
+git clone [https://github.com/nihadaq/GSE183947_Galaxy_PyDESeq2_Analysis.git](https://github.com/nihadaq/GSE183947_Galaxy_PyDESeq2_Analysis.git)
+cd GSE183947_Galaxy_PyDESeq2_Analysis
 
 2. Install Python Dependencies
 pip install -r requirements.txt
